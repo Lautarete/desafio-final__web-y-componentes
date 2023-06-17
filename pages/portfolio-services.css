@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.title-section {
+  background-color: #13171c;
+  padding: 95px 40px 138px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+@media (min-width: 880px) {
+  .title-section {
+    padding: 290px 290px 150px 150px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+  }
+}
+.title-section__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 75px;
+  text-align: center;
+  color: #eeeeee;
+  margin: 0;
+}
+@media (min-width: 880px) {
+  .title-section__title {
+    text-align: start;
+  }
+}
+.title-section__span {
+  color: #00adb5;
+}
+@media (min-width: 880px) {
+  .title-section__span {
+    display: block;
+  }
+}
+.services-jobs-section {
+  padding-top: 77px;
+  background-color: #13171c;
+  background-image: url("../several/services-jobs__background.svg");
+}

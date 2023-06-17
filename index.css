@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.my-info-section {
+  background-color: #192130;
+  padding: 70px 45px 110px 45px;
+}
+@media (min-width: 1023px) {
+  .my-info-section {
+    display: flex;
+    flex-direction: row;
+    padding: 260px 120px;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1023px) {
+  .my-info-section__text-container {
+    width: 389px;
+  }
+}
+.my-info-section__title,
+.my-info-section__p {
+  color: #ffff;
+  font-family: "Poppins";
+  font-size: normal;
+  margin: 0;
+}
+.my-info-section__title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 131%;
+  margin-bottom: 29px;
+}
+@media (min-width: 1023px) {
+  .my-info-section__title {
+    font-size: 64px;
+    line-height: 96px;
+  }
+}
+.my-info-section__p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 38px;
+}
+
+.my-info-section__self-img-container {
+  width: 295px;
+  height: 241px;
+}
+@media (min-width: 1023px) {
+  .my-info-section__self-img-container {
+    width: 623px;
+    height: 415px;
+    /* width: 280px;
+    height: 215px; */
+  }
+}
+.my-info-section__self-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.services {
+  background-color: #13171c;
+  background-image: url("../several/services-jobs__background.svg");
+  padding-top: 88px;
+}
+.services__title {
+  margin: 0;
+  margin-bottom: 66px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 63px;
+  text-align: center;
+  color: #eeeeee;
+}
+.services__title-span {
+  color: #00adb5;
+}
